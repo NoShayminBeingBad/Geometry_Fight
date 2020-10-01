@@ -1,0 +1,378 @@
+The environment (not your program) has crashed.
+
+This error is caused by a bug in the environment and is not your fault!
+Details about the crash have been saved in the file "D:\Game\Work in Progess\panic.log".
+
+If possible, please e-mail this file to trishume@me.com
+
+Here are some details about the crash:
+Cause of Crash: Access Violation
+
+Registers
+  EAX=0471DE31  EBX=0000002C  ECX=3FFD3B8C  EDX=00000001  ESI=047CF000
+  EDI=047CEFD4  EBP=0019F404  ESP=0019F3FC  EIP=00426917  FLG=00010212
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+All unsaved open files will be saved with a ".sav" or ".sv#" extension.
+Crashed in Crash Handler!
+*** FATAL INTERNAL ERROR in Turing ***
+Date: Jun 8 2018 9:44 PM
+
+File Name: C:\Users\Zy143\Desktop\package\turing.exe
+Version: 1.0.1  [11]
+File Size: 4573696
+File Date: Jun 11 2012 11:35 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Previous Operations:
+  CMD: WM_ACTIVATE (W)
+    Object Freed -1
+    Object Freed 0
+    Debugger Notify Init Run
+    Deallocating object 0 (free=1)
+    Deallocating object -1 (free=1)
+    Deallocating object -2 (free=1)
+    Create standard input/output window
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+  CMD: WM_ACTIVATE (W)
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 -2
+    Object Allocated 11 -1
+    Create standard error window
+    MIOWin_CreateWindowFromAttribs (Standard Error)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner text win
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 0
+    Run Window Added 1602ac 
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 4ee0dc0 - ch: 8
+    Text - sz:11:219 - slFr:2:29:72 - slTo:2:29:72 - nlA:0
+    Line Starts: 8:202 9:210 10:218 11:219
+    Keystroke (2) - sz:11:218 - slFr:71 - slTo:71 - nlA:0
+    Line Starts: 8:201 9:209 10:217 11:218
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 20346 - Ex: 1 - Args: 0 - Step: 0
+    Debugger Notify Finalize Run
+    Turing Language Freeing Memory
+    MIO_Init_Free called
+    Object Freed -1
+    Object Freed 0
+    Debugger Notify Init Run
+    Deallocating object 0 (free=1)
+    Deallocating object -1 (free=1)
+    Deallocating object -2 (free=1)
+    MIO_Init_Run called
+    MIO_Init_Free called
+    Debugger Notify Init Run
+    Create standard input/output window
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+  CMD: WM_ACTIVATE (W)
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 -2
+    Object Allocated 11 -1
+    Create standard error window
+    MIOWin_CreateWindowFromAttribs (Standard Error)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner text win
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 0
+    Run Window Added 1905ae 
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 4ee0dc0 - Undo: 1
+    Text - sz:11:218 - slFr:2:28:71 - slTo:2:28:71 - nlA:0
+    Line Starts: 8:201 9:209 10:217 11:218
+    Undo (2) - Undo size: 7 - Repl from: 58 - Repl to: 71
+    Delete Selection (1) - Text: 4ee0dc0
+    Text - sz:11:218 - slFr:2:28:58 - slTo:2:28:71 - nlA:0
+    Line Starts: 8:201 9:209 10:217 11:218
+    Delete Selection (2) - From line: 2 - From col: 28 - To line: 2 - To col: 28
+    Delete Selection (3) - sz:11:205 - slFr:58 - slTo:58 - nlA:0
+    Line Starts: 8:188 9:196 10:204 11:205
+    Insert Text (1) - Text: 4ee0dc0 - size: 7 - clean: 1
+    Text - sz:11:205 - slFr:58 - slTo:58 - nlA:0
+    Line Starts: 8:188 9:196 10:204 11:205
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:11:212 - slFr:65 - slTo:65 - nlA:0
+    Line Starts: 8:195 9:203 10:211 11:212
+    Undo (3) - sz:11:212 - slFr:65 - slTo:58 - nlA:0
+    Line Starts: 8:195 9:203 10:211 11:212
+    Debugger Notify Finalize Run
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 4ee0dc0 - Undo: 1
+    Text - sz:11:212 - slFr:2:22:65 - slTo:2:15:58 - nlA:0
+    Line Starts: 8:195 9:203 10:211 11:212
+    Undo (2) - Undo size: 23 - Repl from: 30 - Repl to: 42
+    Delete Selection (1) - Text: 4ee0dc0
+    Text - sz:11:212 - slFr:2:22:30 - slTo:2:15:42 - nlA:0
+    Line Starts: 8:195 9:203 10:211 11:212
+    Delete Selection (2) - From line: 2 - From col: 15 - To line: 2 - To col: 22
+    Delete Selection (3) - sz:11:200 - slFr:30 - slTo:30 - nlA:0
+    Line Starts: 8:183 9:191 10:199 11:200
+    Insert Text (1) - Text: 4ee0dc0 - size: 23 - clean: 1
+    Text - sz:11:200 - slFr:30 - slTo:30 - nlA:0
+    Line Starts: 8:183 9:191 10:199 11:200
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:11:223 - slFr:53 - slTo:53 - nlA:0
+    Line Starts: 8:206 9:214 10:222 11:223
+    Undo (3) - sz:11:223 - slFr:53 - slTo:30 - nlA:0
+    Line Starts: 8:206 9:214 10:222 11:223
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 4ee0dc0 - L: 4 - C: 27
+    Text - sz:11:223 - slFr:1:27:53 - slTo:1:4:30 - nlA:0
+    Line Starts: 8:206 9:214 10:222 11:223
+    Set Selection (2) - sz:11:223 - slFr:125 - slTo:125 - nlA:0
+    Line Starts: 8:206 9:214 10:222 11:223
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 4ee0dc0 - L: 4 - C: 27 (x1)
+    Text - sz:11:223 - slFr:4:26:125 - slTo:4:26:125 - nlA:0
+    Line Starts: 8:206 9:214 10:222 11:223
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 4ee0dc0 - ch: 8
+    Text - sz:11:223 - slFr:125 - slTo:125 - nlA:0
+    Line Starts: 8:206 9:214 10:222 11:223
+    Keystroke (2) - sz:11:222 - slFr:124 - slTo:124 - nlA:0
+    Line Starts: 8:205 9:213 10:221 11:222
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 4ee0dc0 - ch: 8
+    Text - sz:11:222 - slFr:4:25:124 - slTo:4:25:124 - nlA:0
+    Line Starts: 8:205 9:213 10:221 11:222
+    Keystroke (2) - sz:11:221 - slFr:123 - slTo:123 - nlA:0
+    Line Starts: 8:204 9:212 10:220 11:221
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 4ee0dc0 - ch: 8
+    Text - sz:11:221 - slFr:4:24:123 - slTo:4:24:123 - nlA:0
+    Line Starts: 8:204 9:212 10:220 11:221
+    Keystroke (2) - sz:11:220 - slFr:122 - slTo:122 - nlA:0
+    Line Starts: 8:203 9:211 10:219 11:220
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: 4ee0dc0 - Undo: 0
+    Text - sz:11:220 - slFr:4:23:122 - slTo:4:23:122 - nlA:0
+    Line Starts: 8:203 9:211 10:219 11:220
+    Undo (2) - Undo size: 12 - Repl from: 30 - Repl to: 53
+    Delete Selection (1) - Text: 4ee0dc0
+    Text - sz:11:220 - slFr:4:23:30 - slTo:4:23:53 - nlA:0
+    Line Starts: 8:203 9:211 10:219 11:220
+    Delete Selection (2) - From line: 4 - From col: 23 - To line: 4 - To col: 23
+    Delete Selection (3) - sz:11:197 - slFr:30 - slTo:30 - nlA:0
+    Line Starts: 8:180 9:188 10:196 11:197
+    Insert Text (1) - Text: 4ee0dc0 - size: 12 - clean: 1
+    Text - sz:11:197 - slFr:30 - slTo:30 - nlA:0
+    Line Starts: 8:180 9:188 10:196 11:197
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:11:209 - slFr:42 - slTo:42 - nlA:0
+    Line Starts: 8:192 9:200 10:208 11:209
+    Undo (3) - sz:11:209 - slFr:65 - slTo:58 - nlA:0
+    Line Starts: 8:192 9:200 10:208 11:209
+  CMD: WM_INITMENU (W)
+
+
+
+The environment has experienced an unexpected internal error.
+
+This error is caused by a bug in the environment and is not your fault!
+Details about the crash have been saved in the file "D:\Game\Work in Progess\panic.log".
+
+If possible, please e-mail this file to trishume@me.com
+
+Here are some details about the error:
+   Error = LoadString failed (-572662307) (6002)
+   Windows error = The specified resource name cannot be found in the image file. (1814)
+   File = ..\..\ready\src\edgui.c
+   Line = 1421
+
+All unsaved open files will be saved with a ".sav" or ".sv#" extension.
+
+Not enough space for modules.
+
+
+------------------------------------------------------
+*** ENVIRONMENT CRASH ***
+
+Date: Jun 11 2018 9:34 AM
+
+File Name: C:\Program Files\Open Turing\turing.exe
+Version: 1.0.1  [11]
+File Size: 4573696
+File Date: Jun 11 2012 11:35 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Object Allocated 22 7262
+    Object Freed 7262
+    Object Allocated 22 7263
+    Object Freed 7263
+    Object Allocated 22 7264
+    Object Freed 7264
+    Object Allocated 22 7265
+    Object Freed 7265
+    Object Allocated 22 7266
+    Object Freed 7266
+    Object Allocated 22 7267
+    Object Freed 7267
+    Object Allocated 22 7268
+    Object Freed 7268
+    Object Allocated 22 7269
+    Object Freed 7269
+    Object Allocated 22 7270
+    Object Freed 7270
+    Object Allocated 22 7271
+    Object Freed 7271
+    Object Allocated 22 7272
+    Object Freed 7272
+    Object Allocated 22 7273
+    Object Freed 7273
+    Object Allocated 22 7274
+    Object Freed 7274
+    Object Allocated 22 7275
+    Object Freed 7275
+    Object Allocated 22 7276
+    Object Freed 7276
+    Object Allocated 22 7277
+    Object Freed 7277
+    Object Allocated 22 7278
+    Object Freed 7278
+    Object Allocated 22 7279
+    Object Freed 7279
+    Object Allocated 22 7280
+    Object Freed 7280
+    Object Allocated 22 7281
+    Object Freed 7281
+    Object Allocated 22 7282
+    Object Freed 7282
+    Object Allocated 22 7283
+    Object Freed 7283
+    Object Allocated 22 7284
+    Object Freed 7284
+    Object Allocated 22 7285
+    Object Freed 7285
+    Object Allocated 22 7286
+    Object Freed 7286
+    Object Allocated 22 7287
+    Object Freed 7287
+    Object Allocated 22 7288
+    Object Freed 7288
+    Object Allocated 22 7289
+    Object Freed 7289
+    Object Allocated 22 7290
+    Object Freed 7290
+    Object Allocated 22 7291
+    Object Freed 7291
+    Object Allocated 22 7292
+    Object Freed 7292
+    Object Allocated 22 7293
+    Object Freed 7293
+    Object Allocated 22 7294
+    Object Freed 7294
+    Object Allocated 22 7295
+    Object Freed 7295
+    Object Allocated 22 7296
+    Object Freed 7296
+    Object Allocated 22 7297
+    Object Freed 7297
+    Object Allocated 22 7298
+    Object Freed 7298
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 4d78aa0 - L: 41 - C: 56
+    Text - sz:297:9400 - slFr:22:12:638 - slTo:22:12:638 - nlA:0
+    Line Starts: 294:9343 295:9373 296:9385 297:9400
+    Set Selection (2) - sz:297:9400 - slFr:1172 - slTo:1172 - nlA:0
+    Line Starts: 294:9343 295:9373 296:9385 297:9400
+    Extend Selection - Text: 4d78aa0 - L: 41 - C: 56 (x1)
+    Text - sz:297:9400 - slFr:41:27:1172 - slTo:41:27:1172 - nlA:0
+    Line Starts: 294:9343 295:9373 296:9385 297:9400
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 4d78aa0 - L: 41 - C: 56 (x1)
+    Text - sz:297:9400 - slFr:41:27:1172 - slTo:41:27:1172 - nlA:0
+    Line Starts: 294:9343 295:9373 296:9385 297:9400
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 3ae2eb0 - L: 62 - C: 28
+    Text - sz:68:1536 - slFr:64:22:1492 - slTo:64:22:1492 - nlA:0
+    Line Starts: 65:1496 66:1509 67:1535 68:1536
+    Set Selection (2) - sz:68:1536 - slFr:1451 - slTo:1451 - nlA:0
+    Line Starts: 65:1496 66:1509 67:1535 68:1536
+    Extend Selection - Text: 3ae2eb0 - L: 62 - C: 28 (x2)
+    Text - sz:68:1536 - slFr:62:22:1451 - slTo:62:22:1451 - nlA:0
+    Line Starts: 65:1496 66:1509 67:1535 68:1536
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 3ae2eb0 - L: 62 - C: 28 (x1)
+    Text - sz:68:1536 - slFr:1451 - slTo:1451 - nlA:0
+    Line Starts: 65:1496 66:1509 67:1535 68:1536
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 3ae2eb0 - L: 59 - C: 28
+    Text - sz:68:1536 - slFr:1451 - slTo:1451 - nlA:0
+    Line Starts: 65:1496 66:1509 67:1535 68:1536
+    Set Selection (2) - sz:68:1536 - slFr:1388 - slTo:1388 - nlA:0
+    Line Starts: 65:1496 66:1509 67:1535 68:1536
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 3ae2eb0 - L: 59 - C: 28 (x1)
+    Text - sz:68:1536 - slFr:59:0:1388 - slTo:59:0:1388 - nlA:0
+    Line Starts: 65:1496 66:1509 67:1535 68:1536
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_CLOSE_FILE
+  CMD: WM_CLOSE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: 20350 - SaveAs: 0 - Sel: 0 - fileno: 77 - sizeptr: 650bb8
+    Save File (2) - name: F:\Game\Work in Progess\Global Variables.t - fileno: 77 - sizeptr: 650bb8
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_CLOSE_FILE
+  CMD: WM_CLOSE (W)
+    Set Turing Values - Window: 20350 - fileno: 0 - sizeptr: 0 - where: 53
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_DESTROY (W)
+  CMD: WM_DESTROY (D)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 6600940 - L: 194 - C: 106
+    Text - sz:217:6276 - slFr:212:36:6214 - slTo:212:36:6214 - nlA:0
+    Line Starts: 214:6232 215:6247 216:6260 217:6276
+    Set Selection (2) - sz:217:6276 - slFr:5576 - slTo:5576 - nlA:0
+    Line Starts: 214:6232 215:6247 216:6260 217:6276
+    Extend Selection - Text: 6600940 - L: 194 - C: 106 (x1)
+    Text - sz:217:6276 - slFr:194:35:5576 - slTo:194:35:5576 - nlA:0
+    Line Starts: 214:6232 215:6247 216:6260 217:6276
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 6600940 - L: 194 - C: 106 (x1)
+    Text - sz:217:6276 - slFr:194:35:5576 - slTo:194:35:5576 - nlA:0
+    Line Starts: 214:6232 215:6247 216:6260 217:6276
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_CLOSE_FILE
+  CMD: WM_CLOSE (W)
+    Set Turing Values - Window: 30332 - fileno: 0 - sizeptr: 0 - where: 53
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_DESTROY (W)
+  CMD: WM_DESTROY (D)
+
+
+Registers
+  EAX=DDDDDDD8  EBX=06600940  ECX=00000003  EDX=000000ED  ESI=0762F908
+  EDI=00000000  EBP=0012AFAC  ESP=0012AFAC  EIP=0040439C  FLG=00210202
+  CS=001B  DS=0023  SS=0023  ES=0023  FS=003B  GS=0000
+
+Not enough space for modules.
+
+------------------------------------------------------
