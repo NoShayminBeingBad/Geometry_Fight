@@ -1,12 +1,27 @@
 # Geometry_Fight
 A 2-player platform fighting game that has circles fighting each other (coded in turing)
+
+
 Player 1 controls
-  Movement:WASD
+
+
+  Movement: WASD
+  
+  
   Attack1: c
+  
+  
   Attack2: v
+  
+  
 Player 2 controls
-  Momvent: Arrow Keys
+
+
+  Movement: Arrow Keys
+  
+  
   Attack1: 1
+  
   Attack2: 2
 
 
