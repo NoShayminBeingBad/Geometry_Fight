@@ -1,24 +1,18 @@
 # Geometry_Fight
-A 2-player platform fighting game that has circles fighting each other (coded in turing)
-
+A 2-player platform fighting game that has circles fighting each other (coded in turing). Contains 2 run .exe run files.
 
 Player 1 controls
 
-
   Movement: WASD
   
-  
   Attack1: c
-  
   
   Attack2: v
   
   
 Player 2 controls
 
-
   Movement: Arrow Keys
-  
   
   Attack1: 1
   
