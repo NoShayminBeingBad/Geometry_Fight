@@ -20,5 +20,4 @@ Player 2 controls
 
 
 History: This was my very first game and project and thus is very old and outdated and is done with basically no understanding
-of classes, coding pratices, and optimization. Turing is a teaching language used in Ontario secondary schools to teach the
-basics of coding and using code to solve problems. DO NOT USE TURING AT ANY COST, PLEASE JUST ANYTHING ELSE.
+of classes, coding pratices, and optimization.
